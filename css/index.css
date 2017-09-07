@@ -1,0 +1,371 @@
+@font-face {
+	font-family: ny;
+	src: url('css/mg.ttf'), url('css/mg.ttf');
+	/* IE9+ */
+}
+
+.bg {
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "微软雅黑";
+	/*text-shadow: none;*/
+	color: white;
+	max-width: 780px !important;
+	margin: 0 auto;
+}
+
+.bg1 {
+	background-image: url('../img/bj1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "微软雅黑";
+	text-shadow: none;
+	color: white;
+	max-width: 780px !important;
+	margin: 0 auto;
+}
+
+
+/*总体样式*/
+
+.tm {
+	width: 100%;
+	min-height: 70%;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*第一页样式*/
+
+.tm .title1 img {
+	width: 100%;
+}
+
+.tm .title2 img {
+	width: 80%;
+	margin: 10% 10%;
+}
+
+.tm .button {
+	width: 50%;
+	margin: 0 25%;
+	margin-bottom: 20%;
+	text-align: center;
+}
+
+.tm .button .ui-btn {
+	background-color: green;
+	text-shadow: none;
+	color: white;
+	border: none;
+	font-family: "微软雅黑";
+	font-size: 1.2em;
+}
+
+.tm .button h2 a {
+	font-size: 0.9em;
+	color: #EDC379;
+	font-weight: 100;
+}
+
+
+/*第二页样式*/
+
+.tm .hdsm {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url('../img/smbg.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	max-width: 780px;
+	height: 100%;
+	z-index: 99;
+}
+
+.tm .hdsm p {
+	color: #77271D;
+	font-family: "微软雅黑";
+	font-size: 1em;
+	word-break: break-all;
+	width: 60%;
+	line-height: 30px;
+}
+
+
+/*//垂直居中*/
+
+.center-vertical {
+	position: relative;
+	top: 25%;
+	transform: translateY(-50%);
+}
+
+
+/*//水平居中*/
+
+.center-horizontal {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.tm .answer {
+	text-indent: 1em;
+}
+
+.tm .question {
+	padding: 0px;
+	margin: 0;
+	text-align-last: center;
+}
+
+.tm .question li {
+	list-style: none;
+	padding: 2%;
+	border-radius: 5px;
+	margin-top: 1%;
+	font-size: 1em;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tm .question li span {
+	font-size: 1.2em;
+}
+
+.tm .question li:active {
+	background-color: #000000;
+	
+}
+
+.tm .img {
+	text-align: center;
+}
+
+.tm .img img {
+	border-radius: 5px;
+}
+
+.select {
+	background-color: orangered;
+	background: url(../img/check.png) 95% center no-repeat;
+	background-size: 30px;
+
+}
+
+.dig {
+	display: block;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.dig .content {
+	background: url(../img/dig.png) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	min-height: 450px;
+	position: fixed;
+	top: 25%;
+	left: 0%;
+	max-width: 780px !important;
+	z-index: 99;
+	*/
+}
+
+.dig .content .close {
+	line-height: 50px;
+	border-radius: 50%;
+	color: #0033CC;
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin-right: 10%;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 3em;
+	background-image: url(../img/CLOSE_48px.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	z-index: 999;
+}
+
+.dig .content p {
+	clear: all;
+	line-height: 2em;
+	font-family: "微软雅黑";
+	margin-top: 10%;
+	padding: 2%;
+	text-align: center;
+	text-shadow: 0px 0px 2px white;
+	margin-bottom: 10%;
+}
+
+#tmanswer {
+	margin-top: 10%;
+	width: 100%;
+}
+
+#tmanswer img:first-child {
+	margin-left: 3%;
+}
+
+#tmanswer .titlebg {
+	width: 100%;
+}
+
+#tmanswer .answer {
+	position: absolute;
+	width: 60%;
+	left: 20%;
+	top: 18%;
+	line-height: 25px;
+	min-height: 130px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #3E382E;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#tmanswer .timer {
+	background-image: url(../img/timer.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	line-height: 37px;
+	text-align: center;
+	height: 37px;
+	color: #3E382E;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+#tmanswer .question {
+	background-image: url(../img/questionlistbg.png);
+	background-size: 90% 100%;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 5%;
+	width: 100%;
+	min-height: 200px;
+}
+
+#tmanswer .question ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#tmanswer .question ul li {
+	min-height: 60px;
+ padding: 0;
+}
+
+#tmanswer .question ul li p {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	text-indent: 5px;
+	min-width: 250px;
+	text-align: left;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	padding: 2px;
+	word-break: break-all;
+	max-width: 80%;
+}
+#tmanswer .question ul .active {
+	border: 1px  solid orangered;
+	border-radius: 12px;
+	}
+
+#tmanswer .question ul .active  p{
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	line-height: 30px;
+	background-image: url(../img/yes_24px.png);
+	background-position: right 0px;
+	background-repeat: no-repeat;
+}
+
+#tmanswer .question ul .yes p {
+	background-color: green;
+}
+
+#tmanswer .question ul .yes i {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	line-height: 30px;
+	background-image: url(../img/yes_24px.png);
+	background-position: center 0px;
+	background-repeat: no-repeat;
+}
+
+#tmanswer .question ul .no p {
+	background-color: orangered;
+}
+
+#tmanswer .question ul .no i {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	line-height: 30px;
+	background-image: url(../img/close_24px.png);
+	background-position: center 0px;
+	background-repeat: no-repeat;
+}
+
+#tmanswer .question mark {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #333333;
+	line-height: 30px;
+	color: white;
+	text-align: center;
+	margin-right: 10px;
+}
+
+
+/*题目幻灯片*/
+
+.swiper-container {
+	width: 100%;
+	height: 60px;
+}
+
+.swiper-slide {
+	text-align: left;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
