@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -71,4 +72,79 @@
 <script src="jquery.mobile/demos/js/jquery.mobile-1.4.5.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="layer/mobile/layer.js" type="text/javascript" charset="utf-8"></script>
+=======
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="format-detection" content="telephone=yes" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>闯关答题 </title>
+		<link rel="stylesheet" type="text/css" href="themes/psd.css" />
+		<script src="js/pace.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="jquery.mobile/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="layer/skin/default/layer.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+	</head>
+
+	<body>
+		<form method="post" action="./01" id="form1">
+			<div id="yxstart" class="bg" data-role="page" role="main">
+				<div class="tm" data-role="content">
+					<div class="title1">
+						<img src="img/title1.png" />
+					</div>
+					<div class="title2">
+						<img src="img/title2.png" />
+					</div>
+					<div class="button">
+						<a data-role="button" onclick="tools.startgame()">我来挑战</a>
+						<h2><a href="#yxsm" data-transition="flow" data-transition="pop">活动说明</a></h2>
+					</div>
+				</div>
+				<input type="hidden" name="selectVal" id="selectVal" value="" />
+			</div>
+			<div id="yxsm" class="bg" data-role="page">
+				<div class="tm" data-role="content">
+					<div class="hdsm">
+						<p class="center-vertical center-horizontal"> </p>
+					</div>
+				</div>
+				<input type="hidden" name="selectVal" id="selectVal" value="" />
+			</div>
+			<div id="yxcontent" class="bg1" data-role="page">
+				<div id="tmanswer">
+					<img src="img/Tmanswer.png" class="titlebg" />
+					<div class="answer">
+
+					</div>
+					<div class="timer">
+						<span id="correctnum"> 15 </span> &nbsp;&nbsp;
+						<span id="timernum"> 99<span>s</span> </span>
+					</div>
+					<div class="question">
+						<div class="swiper-wrapper"></div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+						<input type="hidden" id="thisquestionid" value="0" />
+					</div>
+				</div>
+
+			</div>
+		</form>
+	</body>
+
+</html>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.mobile/demos/js/jquery.mobile-1.4.5.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="layer/mobile/layer.js" type="text/javascript" charset="utf-8"></script>
+>>>>>>> 7c85b5461275c289d326e21ed46741f18c4372ba
 <script type="text/javascript" type="application/javascript" src="js/answer.js"></script>
